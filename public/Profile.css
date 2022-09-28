@@ -1,0 +1,42 @@
+
+.profileContainer{
+
+    display: flex;
+    height: 100%;
+    background-color:  rgb(218, 209, 227);
+    padding: 2%
+}
+.leftDiv{ 
+    background-color: rgb(218, 209, 227);
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+    padding-left: 2%;
+    margin: 0
+}
+
+.rightDiv{
+    background-color: white;
+    width: 70%;
+    height: max-content;
+    display: flex;
+    padding-left: 2%;
+    height: 400px
+
+}
+
+.rightDiv button{
+  margin-left: 37%;
+  margin-top: 10%;
+}
+.rightDiv img{
+    height: 200px;
+    width: 200px;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.edit-form{
+    color:blue;
+}
+

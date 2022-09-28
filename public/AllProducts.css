@@ -1,0 +1,75 @@
+/* https://codepen.io/juliepark/pen/aKbYVp */
+
+.itemContainer{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  justify-content: center;
+  font-family: "Comic Sans MS", "Comic Sans";
+}
+
+#singleItem{ 
+  margin: 5%;
+  margin-top: 5%;
+    background: white;
+     box-shadow: 5px 5px 15px rosybrown;
+     width: 300px;
+     height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+  }
+  
+ img { 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .productDisplayCard {
+    text-align: center;
+  }
+
+  .productDisplayCard button {
+    background-color: #E0B1CB;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    margin: -15px 20px -15px 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer;
+    transition-duration: 1.s;
+  }
+
+  .productDisplayCard button:hover {
+    background-color: #d38fb4;
+    transition: all .4s ease-in-out;
+  }
+
+  .likeArea{
+    width:300px;
+    display: flex;
+
+  }
+
+  .likeArea .add {
+    width: 75%;
+    height: 10%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  
+  .likeArea .like {
+    width: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
